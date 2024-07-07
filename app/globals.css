@@ -31,3 +31,32 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes moveDown {
+  to {
+    top: 2000px;
+  }
+}
+
+.boulder-shadow {
+  filter: drop-shadow(10px 10px 5px #00000066);
+}
+.rocket-shadow {
+  filter: drop-shadow(3px 3px 2px #00000066);
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+}
+
+.wiggle {
+  animation: wiggle 120;
+}
