@@ -60,3 +60,7 @@ body {
 .wiggle {
   animation: wiggle 120;
 }
+
+.social-links-shadow {
+  filter: drop-shadow(1px 1px 2px #00000088);
+}
